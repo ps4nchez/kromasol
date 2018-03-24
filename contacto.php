@@ -11,8 +11,8 @@
 	$email_to = "pasz5564@gmail.com";
 	$contenido = "$nombre ha enviado un mensaje desde la página web"
 				. "n"
-				. "Nombre: $nombre"
-				. "Email: $email"
+				. "Nombres: $nombre"
+				. "Correo: $email"
 				. "Mensaje: $mensaje"
 				. "n";
 
