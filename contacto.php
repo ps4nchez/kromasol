@@ -2,19 +2,17 @@
 	//Se inicializan las variables del formulario
 	@$nombre = addslashes($_POST['nombre']);
 	@$email = addslashes($_POST['email']);
-	@$web = addslashes($_POST['web']);
 	@$mensaje = addslashes($_POST['mensaje']);
 
 	//Configuración del mensaje que será enviado
-	$cabeceras = "From: ingsisrmh"
+	$cabeceras = "From: ps4nchez"
 					. "Reply-To: $email";
 	$asunto = "Envío de comentario desde el sitio web";
-	$email_to = "ingsisrmh@gmail.com";
+	$email_to = "pasz5564@gmail.com";
 	$contenido = "$nombre ha enviado un mensaje desde la página web"
 				. "n"
 				. "Nombre: $nombre"
 				. "Email: $email"
-				. "Sitio Web: $web"
 				. "Mensaje: $mensaje"
 				. "n";
 
